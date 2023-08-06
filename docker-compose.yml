@@ -1,0 +1,7 @@
+services:
+   app:
+     image: projetrize
+     container_name: projetrm
+     ports:
+        - "3004:3005"
+     command: npm start
